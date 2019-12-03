@@ -38,5 +38,5 @@ func TestDay2B(t *testing.T) {
 	tmpInput := strings.Split(fileData[0], ",")
 	puzzleInput, _ := utils.ConvertStringToInt(tmpInput)
 	result := solveDay2B(puzzleInput)
-	assert.Equal(t, 5190822, result)
+	assert.Equal(t, 7960, result)
 }

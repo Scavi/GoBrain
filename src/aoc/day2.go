@@ -6,13 +6,13 @@ func solveDay2A(input []int) int {
 	result := 0
 	for run {
 		operation := input[currentPos]
-		lookupA := input[currentPos+1%len(input)]
-		lookupB := input[currentPos+2%len(input)]
+		lookupA := input[currentPos+1]
+		lookupB := input[currentPos+2]
 		switch operation {
 		case 1:
-			result = input[lookupA%len(input)] + input[lookupB%len(input)]
+			result = input[lookupA] + input[lookupB]
 		case 2:
-			result = input[lookupA%len(input)] * input[lookupB%len(input)]
+			result = input[lookupA] * input[lookupB]
 		case 99:
 			run = false
 		default:

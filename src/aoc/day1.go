@@ -9,7 +9,7 @@ func solve1(inputLines []string) int32 {
 	for _, line := range inputLines {
 		number, _ := strconv.ParseInt(line, 10, 32)
 		tmp := int32((number / 3) - 2)
-		requiredFuel = requiredFuel + tmp
+		requiredFuel += tmp
 	}
 	return requiredFuel
 }
@@ -19,7 +19,7 @@ func _solve(fuelValue int32) int32 {
 		return 0
 	}
 	requiredFuel := (fuelValue / 3) - 2
-	requiredFuel = requiredFuel + _solve(requiredFuel)
+	requiredFuel += _solve(requiredFuel)
 	return requiredFuel
 }
 
