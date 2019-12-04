@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d9206ee-65d1-4dd1-84fa-f742d2e63953" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/res/aoc/day3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aoc/day3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aoc/day3_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/math.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aoc/day4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aoc/day4_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,18 +60,7 @@
       <recent name="$PROJECT_DIR$/res/aoc" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.day3_test.go">
-    <configuration name="TestDay2A in aoc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="GoBrain" />
-      <working_directory value="$PROJECT_DIR$/src/aoc" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="aoc" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestDay2A$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.day4_test.go">
     <configuration name="TestDay2B in aoc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoBrain" />
       <working_directory value="$PROJECT_DIR$/src/aoc" />
@@ -112,20 +99,29 @@
       <filePath value="$PROJECT_DIR$/src/aoc/day3_test.go" />
       <method v="2" />
     </configuration>
+    <configuration name="day4_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoBrain" />
+      <working_directory value="$PROJECT_DIR$/src/aoc" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/aoc/day4_test.go" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Test.day1_test.go" />
-      <item itemvalue="Go Test.TestDay2A in aoc" />
       <item itemvalue="Go Test.TestDay2B in aoc" />
       <item itemvalue="Go Test.day2_test.go" />
       <item itemvalue="Go Test.day3_test.go" />
+      <item itemvalue="Go Test.day4_test.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.day4_test.go" />
         <item itemvalue="Go Test.day3_test.go" />
         <item itemvalue="Go Test.day1_test.go" />
         <item itemvalue="Go Test.day2_test.go" />
         <item itemvalue="Go Test.TestDay2B in aoc" />
-        <item itemvalue="Go Test.TestDay2A in aoc" />
       </list>
     </recent_temporary>
   </component>
@@ -161,46 +157,46 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="669" y="242" key="#go_build_day1.go/0.0.1920.1200@0.0.1920.1200" timestamp="1575313229612" />
-    <state x="849" y="310" width="643" height="579" key="#xdebugger.evaluate" timestamp="1575490394486">
+    <state x="849" y="310" width="643" height="579" key="#xdebugger.evaluate" timestamp="1575500581492">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="849" y="310" width="643" height="579" key="#xdebugger.evaluate/0.0.1920.1200@0.0.1920.1200" timestamp="1575490394486" />
+    <state x="849" y="310" width="643" height="579" key="#xdebugger.evaluate/0.0.1920.1200@0.0.1920.1200" timestamp="1575500581492" />
     <state width="522" height="466" key="DebuggerActiveHint" timestamp="1575490098538">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="522" height="466" key="DebuggerActiveHint/0.0.1920.1200@0.0.1920.1200" timestamp="1575490098538" />
-    <state width="1878" height="341" key="GridCell.Tab.0.bottom" timestamp="1575490668641">
+    <state width="1878" height="234" key="GridCell.Tab.0.bottom" timestamp="1575500972969">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1575490668641" />
-    <state width="1878" height="341" key="GridCell.Tab.0.center" timestamp="1575490668639">
+    <state width="1878" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1575500972969" />
+    <state width="1878" height="234" key="GridCell.Tab.0.center" timestamp="1575500972968">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="341" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1575490668639" />
-    <state width="1878" height="341" key="GridCell.Tab.0.left" timestamp="1575490668639">
+    <state width="1878" height="234" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1575500972968" />
+    <state width="1878" height="234" key="GridCell.Tab.0.left" timestamp="1575500972967">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="341" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1575490668639" />
-    <state width="1878" height="341" key="GridCell.Tab.0.right" timestamp="1575490668640">
+    <state width="1878" height="234" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1575500972967" />
+    <state width="1878" height="234" key="GridCell.Tab.0.right" timestamp="1575500972969">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="341" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1575490668640" />
-    <state width="1878" height="423" key="GridCell.Tab.1.bottom" timestamp="1575490407620">
+    <state width="1878" height="234" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1575500972969" />
+    <state width="1878" height="346" key="GridCell.Tab.1.bottom" timestamp="1575500766012">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="423" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1575490407620" />
-    <state width="1878" height="423" key="GridCell.Tab.1.center" timestamp="1575490407619">
+    <state width="1878" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1575500766012" />
+    <state width="1878" height="346" key="GridCell.Tab.1.center" timestamp="1575500766012">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="423" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1575490407619" />
-    <state width="1878" height="423" key="GridCell.Tab.1.left" timestamp="1575490407619">
+    <state width="1878" height="346" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1575500766012" />
+    <state width="1878" height="346" key="GridCell.Tab.1.left" timestamp="1575500766011">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="423" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1575490407619" />
-    <state width="1878" height="423" key="GridCell.Tab.1.right" timestamp="1575490407620">
+    <state width="1878" height="346" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1575500766011" />
+    <state width="1878" height="346" key="GridCell.Tab.1.right" timestamp="1575500766012">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="423" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1575490407620" />
+    <state width="1878" height="346" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1575500766012" />
     <state x="469" y="239" key="SettingsEditor" timestamp="1575315165352">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -221,10 +217,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1575409425313" />
-    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1575400706357">
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1575498583797">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1575400706357" />
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1575498583797" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
