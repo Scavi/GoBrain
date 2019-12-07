@@ -1,27 +1,7 @@
 package aoc
 
 func solveDay2A(input []int) int {
-	run := true
-	currentPos := 0
-	result := 0
-	for run {
-		operation := input[currentPos]
-		lookupA := input[currentPos+1]
-		lookupB := input[currentPos+2]
-		switch operation {
-		case 1:
-			result = input[lookupA] + input[lookupB]
-		case 2:
-			result = input[lookupA] * input[lookupB]
-		case 99:
-			run = false
-		default:
-			panic("Oh no!")
-		}
-		input[currentPos+3%len(input)] = result
-		currentPos += 4
-	}
-	return result
+	return executeInstructions(input, 0)
 }
 
 func solveDay2B(input []int) int {
