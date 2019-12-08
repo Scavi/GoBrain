@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d9206ee-65d1-4dd1-84fa-f742d2e63953" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/aoc/core.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/aoc/day6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/aoc/day7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aoc/day6.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aoc/day6_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aoc/day2.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/aoc/day2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aoc/day5.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/aoc/day5.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aoc/core.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/aoc/core.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aoc/day5_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/aoc/day5_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +66,18 @@
       <recent name="$PROJECT_DIR$/res/aoc" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestDay5B in aoc">
+  <component name="RunManager" selected="Go Test.day5_test.go">
+    <configuration name="TestDay5A in aoc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoBrain" />
+      <working_directory value="$PROJECT_DIR$/src/aoc" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="aoc" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestDay5A$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestDay5B in aoc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoBrain" />
       <working_directory value="$PROJECT_DIR$/src/aoc" />
@@ -76,6 +89,17 @@
       <pattern value="^TestDay5B$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestDay6B in aoc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoBrain" />
+      <working_directory value="$PROJECT_DIR$/src/aoc" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="aoc" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestDay6B$" />
+      <method v="2" />
+    </configuration>
     <configuration name="day5_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoBrain" />
       <working_directory value="$PROJECT_DIR$/src/aoc" />
@@ -85,10 +109,22 @@
       <filePath value="$PROJECT_DIR$/src/aoc/day5_test.go" />
       <method v="2" />
     </configuration>
+    <configuration name="day6_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoBrain" />
+      <working_directory value="$PROJECT_DIR$/src/aoc" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/aoc/day6_test.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestDay5B in aoc" />
         <item itemvalue="Go Test.day5_test.go" />
+        <item itemvalue="Go Test.TestDay5B in aoc" />
+        <item itemvalue="Go Test.TestDay5A in aoc" />
+        <item itemvalue="Go Test.TestDay6B in aoc" />
+        <item itemvalue="Go Test.day6_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -124,46 +160,46 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="669" y="242" key="#go_build_day1.go/0.0.1920.1200@0.0.1920.1200" timestamp="1575313229612" />
-    <state x="849" y="310" width="643" height="579" key="#xdebugger.evaluate" timestamp="1575753412349">
+    <state x="849" y="310" width="643" height="579" key="#xdebugger.evaluate" timestamp="1575816666456">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="849" y="310" width="643" height="579" key="#xdebugger.evaluate/0.0.1920.1200@0.0.1920.1200" timestamp="1575753412349" />
-    <state width="522" height="466" key="DebuggerActiveHint" timestamp="1575753398609">
+    <state x="849" y="310" width="643" height="579" key="#xdebugger.evaluate/0.0.1920.1200@0.0.1920.1200" timestamp="1575816666456" />
+    <state width="525" height="466" key="DebuggerActiveHint" timestamp="1575815622724">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="522" height="466" key="DebuggerActiveHint/0.0.1920.1200@0.0.1920.1200" timestamp="1575753398609" />
-    <state width="1878" height="476" key="GridCell.Tab.0.bottom" timestamp="1575753378778">
+    <state width="525" height="466" key="DebuggerActiveHint/0.0.1920.1200@0.0.1920.1200" timestamp="1575815622724" />
+    <state width="1878" height="283" key="GridCell.Tab.0.bottom" timestamp="1575817099250">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="476" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1575753378778" />
-    <state width="1878" height="476" key="GridCell.Tab.0.center" timestamp="1575753378777">
+    <state width="1878" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1575817099250" />
+    <state width="1878" height="283" key="GridCell.Tab.0.center" timestamp="1575817099250">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="476" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1575753378777" />
-    <state width="1878" height="476" key="GridCell.Tab.0.left" timestamp="1575753378776">
+    <state width="1878" height="283" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1575817099250" />
+    <state width="1878" height="283" key="GridCell.Tab.0.left" timestamp="1575817099249">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="476" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1575753378776" />
-    <state width="1878" height="476" key="GridCell.Tab.0.right" timestamp="1575753378777">
+    <state width="1878" height="283" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1575817099249" />
+    <state width="1878" height="283" key="GridCell.Tab.0.right" timestamp="1575817099250">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="476" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1575753378777" />
-    <state width="1878" height="476" key="GridCell.Tab.1.bottom" timestamp="1575753378914">
+    <state width="1878" height="283" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1575817099250" />
+    <state width="1878" height="592" key="GridCell.Tab.1.bottom" timestamp="1575816964677">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="476" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1575753378914" />
-    <state width="1878" height="476" key="GridCell.Tab.1.center" timestamp="1575753378913">
+    <state width="1878" height="592" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1575816964677" />
+    <state width="1878" height="592" key="GridCell.Tab.1.center" timestamp="1575816964676">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="476" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1575753378913" />
-    <state width="1878" height="476" key="GridCell.Tab.1.left" timestamp="1575753378912">
+    <state width="1878" height="592" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1575816964676" />
+    <state width="1878" height="592" key="GridCell.Tab.1.left" timestamp="1575816964676">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="476" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1575753378912" />
-    <state width="1878" height="476" key="GridCell.Tab.1.right" timestamp="1575753378914">
+    <state width="1878" height="592" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1575816964676" />
+    <state width="1878" height="592" key="GridCell.Tab.1.right" timestamp="1575816964677">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="476" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1575753378914" />
+    <state width="1878" height="592" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1575816964677" />
     <state x="469" y="239" key="SettingsEditor" timestamp="1575315165352">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -176,18 +212,18 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="639" y="432" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1575750504961" />
-    <state x="626" y="243" width="816" height="714" key="find.popup" timestamp="1575743976503">
+    <state x="626" y="243" width="816" height="714" key="find.popup" timestamp="1575812531414">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="626" y="243" width="816" height="714" key="find.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1575743976503" />
+    <state x="626" y="243" width="816" height="714" key="find.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1575812531414" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1575409425313">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1575409425313" />
-    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1575743959153">
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1575812506693">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1575743959153" />
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1575812506693" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -218,24 +254,64 @@
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/aoc/day5_test.go</url>
-          <line>15</line>
-          <option name="timeStamp" value="124" />
+          <url>file://$PROJECT_DIR$/src/aoc/day6.go</url>
+          <line>39</line>
+          <option name="timeStamp" value="139" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/aoc/core.go</url>
-          <line>84</line>
-          <option name="timeStamp" value="130" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/aoc/core.go</url>
+          <url>file://$PROJECT_DIR$/src/aoc/day6_test.go</url>
           <line>53</line>
-          <option name="timeStamp" value="132" />
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/aoc/day6.go</url>
+          <line>57</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/aoc/day6_test.go</url>
+          <line>43</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/aoc/day6.go</url>
+          <line>53</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/aoc/day6.go</url>
+          <line>28</line>
+          <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/src/aoc/core.go</url>
           <line>126</line>
-          <option name="timeStamp" value="136" />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/aoc/core.go</url>
+          <line>137</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/aoc/core.go</url>
+          <line>148</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/aoc/core.go</url>
+          <line>106</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/aoc/core.go</url>
+          <line>30</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/aoc/core.go</url>
+          <line>157</line>
+          <option name="timeStamp" value="176" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
