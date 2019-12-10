@@ -2,8 +2,6 @@ package aoc
 
 import "strings"
 
-
-
 func _createOrbitMap(input []string) map[string][]string {
 	orbitMap := make(map[string][]string)
 	for _, orbitDetails := range input {
@@ -60,26 +58,3 @@ func solveDay6B(input []string) int {
 	}
 	return shortestPath - 1
 }
-
-//func qExample1() {
-//	queue := make([]int, 0)
-//	// push
-//	queue = append(queue, 1)
-//	// look (don't remove)
-//	x := queue[0]
-//	print(x)
-//	// discard
-//	queue = queue[1:]
-//
-//	if len(queue) == 0 {
-//		panic("noo!")
-//	}
-//}
-//
-//func qExample2() {
-//	x := 0
-//	queue := make(chan int, 300)
-//	queue <- 1
-//	x <- queue
-//	print(x)
-//}
