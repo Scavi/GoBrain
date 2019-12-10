@@ -43,3 +43,16 @@ func ConvertStringToInt(input []string) ([]int, error) {
 	}
 	return output, nil
 }
+
+func CountOccurrenceInString(input string, lookup string) int {
+	if len(input) < len(lookup) {
+		return 0
+	}
+	count := 0
+	for i := 0; i < len(input)-len(lookup); i++ {
+		if input[i:i+len(lookup)] == lookup {
+			count += 1
+		}
+	}
+	return count
+}
